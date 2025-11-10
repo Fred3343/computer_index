@@ -21,12 +21,12 @@ int main(void)
         .license_path = NULL,  // 默认: /etc/yourapp/license/license.lic
         .state_path = NULL,  // 默认: /etc/yourapp/license/state.json
         .pubkeys_dir = NULL,  // 默认: /etc/yourapp/license/pubkeys
-        .sec_heartbeat = 1,     // 心跳间隔
-        .sec_report = 10,    // 指纹上报
-        .sec_crl = 3,     // CRL 拉取
-        .sec_verify = 5,     // 本地校验
+        .sec_heartbeat = 60,     // 心跳间隔
+        .sec_report = 60,    // 指纹上报
+        .sec_crl = 600,     // CRL 拉取
+        .sec_verify = 600,     // 本地校验
         .log_level = 1,     // 0=DEBUG 1=INFO 2=WARN 3=ERR
-        .enforce_initial = -1     // -1 用默认（启用）
+        .enforce_initial = 1     // -1 用默认（启用）
     };
 
     if (offline_lic_agent_start(&cfg) != 0)
@@ -40,18 +40,18 @@ int main(void)
     while (!g_stop)
     {
         sleep(1);
-        if (++tick >= 5)
-        {
-            tick = 0;
-            offline_lic_status_t st;
-            if (offline_lic_agent_get_status(&st) == 0)
-            {
-                printf("[STAT] run=%d enforce=%d revoked=%d grace=%d exp=%lld msg=%s\n",
-                    st.running, st.enforce, st.revoked, st.in_grace,
-                    st.expires_at, st.last_msg);
-                fflush(stdout);
-            }
-        }
+        //if (++tick >= 5)
+        //{
+        //    tick = 0;
+        //    offline_lic_status_t st;
+        //    if (offline_lic_agent_get_status(&st) == 0)
+        //    {
+        //        printf("[STAT] run=%d enforce=%d revoked=%d grace=%d exp=%lld msg=%s\n",
+        //            st.running, st.enforce, st.revoked, st.in_grace,
+        //            st.expires_at, st.last_msg);
+        //        fflush(stdout);
+        //    }
+        //}
     }
 
     offline_lic_agent_stop();
