@@ -1,0 +1,86 @@
+﻿  正在清理远程项目目录
+  正在验证源
+  正在将源远程复制到“192.168.31.191”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  agent.c
+  fp_common.c
+D:\hihiug\client\client\fp_common.c(66,9): warning : this 'if' clause does not guard... [-Wmisleading-indentation]
+D:\hihiug\client\client\fp_common.c(66,9): warning :    66 |         if (de->d_name[0] == '.') continue; if (!strcmp(de->d_name, "lo")) continue;
+D:\hihiug\client\client\fp_common.c(66,9): warning :       |         ^~
+D:\hihiug\client\client\fp_common.c(66,45): message : ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+D:\hihiug\client\client\fp_common.c(66,45): message :    66 |         if (de->d_name[0] == '.') continue; if (!strcmp(de->d_name, "lo")) continue;
+D:\hihiug\client\client\fp_common.c(66,45): message :       |                                             ^~
+D:\hihiug\client\client\fp_common.c(113,5): warning : this 'if' clause does not guard... [-Wmisleading-indentation]
+D:\hihiug\client\client\fp_common.c(113,5): warning :   113 |     if (len == 0) return NULL; return strdup(uuid);
+D:\hihiug\client\client\fp_common.c(113,5): warning :       |     ^~
+D:\hihiug\client\client\fp_common.c(113,32): message : ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+D:\hihiug\client\client\fp_common.c(113,32): message :   113 |     if (len == 0) return NULL; return strdup(uuid);
+D:\hihiug\client\client\fp_common.c(113,32): message :       |                                ^~~~~~
+D:\hihiug\client\client\fp_common.c(193,5): warning : this 'if' clause does not guard... [-Wmisleading-indentation]
+D:\hihiug\client\client\fp_common.c(193,5): warning :   193 |     if (out_len) *out_len = strlen(s); return s;
+D:\hihiug\client\client\fp_common.c(193,5): warning :       |     ^~
+D:\hihiug\client\client\fp_common.c(193,40): message : ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+D:\hihiug\client\client\fp_common.c(193,40): message :   193 |     if (out_len) *out_len = strlen(s); return s;
+D:\hihiug\client\client\fp_common.c(193,40): message :       |                                        ^~~~~~
+D:\hihiug\client\client\fp_common.c(211,5): warning : this 'if' clause does not guard... [-Wmisleading-indentation]
+D:\hihiug\client\client\fp_common.c(211,5): warning :   211 |     if (!s) return; for (;*s;++s)*s = (char)tolower((unsigned char)*s);
+D:\hihiug\client\client\fp_common.c(211,5): warning :       |     ^~
+D:\hihiug\client\client\fp_common.c(211,21): message : ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+D:\hihiug\client\client\fp_common.c(211,21): message :   211 |     if (!s) return; for (;*s;++s)*s = (char)tolower((unsigned char)*s);
+D:\hihiug\client\client\fp_common.c(211,21): message :       |                     ^~~
+D:\hihiug\client\client\fp_common.c(60,16): warning : 'list_macs_json' defined but not used [-Wunused-function]
+D:\hihiug\client\client\fp_common.c(60,16): warning :    60 | static json_t* list_macs_json(void)
+D:\hihiug\client\client\fp_common.c(60,16): warning :       |                ^~~~~~~~~~~~~~
+  license.c
+D:\hihiug\client\client\license.c(28,56): warning : conversion to 'size_t' {aka 'long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+D:\hihiug\client\client\license.c(28,56): warning :    28 |     unsigned char* b64 = (unsigned char*)malloc(outlen + 1); if (!b64) return NULL;
+D:\hihiug\client\client\license.c(28,56): warning :       |                                                 ~~~~~~~^~~
+D:\hihiug\client\client\license.c(38,33): warning : conversion to 'size_t' {aka 'long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+D:\hihiug\client\client\license.c(38,33): warning :    38 |     char* res = (char*)malloc(w + 1); if (!res)
+D:\hihiug\client\client\license.c(38,33): warning :       |                               ~~^~~
+D:\hihiug\client\client\license.c(42,22): warning : conversion to 'size_t' {aka 'long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+D:\hihiug\client\client\license.c(42,22): warning :    42 |     memcpy(res, b64, w); res[w] = '\0'; free(b64); return res;
+D:\hihiug\client\client\license.c(42,22): warning :       |                      ^
+D:\hihiug\client\client\license.c(74,16): warning : conversion to 'size_t' {aka 'long unsigned int'} from 'int' may change the sign of the result [-Wsign-conversion]
+D:\hihiug\client\client\license.c(74,16): warning :    74 |     *out_len = outl + tmplen; *out = buf; free(b64); return 0;
+D:\hihiug\client\client\license.c(74,16): warning :       |                ^~~~
+  main.c
+  offline_license_agent.c
+D:\hihiug\client\client\offline_license_agent.c(103,9): warning : this 'if' clause does not guard... [-Wmisleading-indentation]
+D:\hihiug\client\client\offline_license_agent.c(103,9): warning :   103 |         if (out) *out = NULL; if (code) *code = 0;
+D:\hihiug\client\client\offline_license_agent.c(103,9): warning :       |         ^~
+D:\hihiug\client\client\offline_license_agent.c(103,31): message : ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+D:\hihiug\client\client\offline_license_agent.c(103,31): message :   103 |         if (out) *out = NULL; if (code) *code = 0;
+D:\hihiug\client\client\offline_license_agent.c(103,31): message :       |                               ^~
+D:\hihiug\client\client\offline_license_agent.c(123,9): warning : this 'if' clause does not guard... [-Wmisleading-indentation]
+D:\hihiug\client\client\offline_license_agent.c(123,9): warning :   123 |         if (out) *out = NULL; if (code) *code = 0;
+D:\hihiug\client\client\offline_license_agent.c(123,9): warning :       |         ^~
+D:\hihiug\client\client\offline_license_agent.c(123,31): message : ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+D:\hihiug\client\client\offline_license_agent.c(123,31): message :   123 |         if (out) *out = NULL; if (code) *code = 0;
+D:\hihiug\client\client\offline_license_agent.c(123,31): message :       |                               ^~
+D:\hihiug\client\client\offline_license_agent.c(189,9): warning : this 'if' clause does not guard... [-Wmisleading-indentation]
+D:\hihiug\client\client\offline_license_agent.c(189,9): warning :   189 |         if (last_ok) *last_ok = 0; if (first_fail) *first_fail = 0;
+D:\hihiug\client\client\offline_license_agent.c(189,9): warning :       |         ^~
+D:\hihiug\client\client\offline_license_agent.c(189,36): message : ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+D:\hihiug\client\client\offline_license_agent.c(189,36): message :   189 |         if (last_ok) *last_ok = 0; if (first_fail) *first_fail = 0;
+D:\hihiug\client\client\offline_license_agent.c(189,36): message :       |                                    ^~
+D:\hihiug\client\client\offline_license_agent.c(210,13): warning : this 'if' clause does not guard... [-Wmisleading-indentation]
+D:\hihiug\client\client\offline_license_agent.c(210,13): warning :   210 |             if (resp) free(resp); return -1;
+D:\hihiug\client\client\offline_license_agent.c(210,13): warning :       |             ^~
+D:\hihiug\client\client\offline_license_agent.c(210,35): message : ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+D:\hihiug\client\client\offline_license_agent.c(210,35): message :   210 |             if (resp) free(resp); return -1;
+D:\hihiug\client\client\offline_license_agent.c(210,35): message :       |                                   ^~~~~~
+D:\hihiug\client\client\offline_license_agent.c(220,13): warning : this 'if' clause does not guard... [-Wmisleading-indentation]
+D:\hihiug\client\client\offline_license_agent.c(220,76): message : ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+D:\hihiug\client\client\offline_license_agent.c(594,13): warning : this 'if' clause does not guard... [-Wmisleading-indentation]
+D:\hihiug\client\client\offline_license_agent.c(594,13): warning :   594 |             if (heap_cfg) free(heap_cfg); return -2;
+D:\hihiug\client\client\offline_license_agent.c(594,13): warning :       |             ^~
+D:\hihiug\client\client\offline_license_agent.c(594,43): message : ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+D:\hihiug\client\client\offline_license_agent.c(594,43): message :   594 |             if (heap_cfg) free(heap_cfg); return -2;
+D:\hihiug\client\client\offline_license_agent.c(594,43): message :       |                                           ^~~~~~
+  util.c
+  正在链接对象
+  client.vcxproj -> D:\hihiug\client\client\bin\ARM64\Debug\client.out
