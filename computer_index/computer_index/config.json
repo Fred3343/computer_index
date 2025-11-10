@@ -1,0 +1,91 @@
+﻿{
+    "brand": {
+        "cn_name": "物联网·AI 科技",
+        "en_name": "GZWY Software · IoT · AI",
+        "slogan": "让设备更聪明，让业务更轻松",
+        "logo_text": "GZWY"
+    },
+    "seo": {
+        "title": "物联网·AI｜边云一体与智能运维平台",
+        "description": "面向工商业与园区的软硬一体与AI智能运维平台，支持多协议接入、边云协同、预测性维护与能耗优化，开放API与私有化部署。",
+        "keywords": [ "软件公司", "物联网平台", "工业数据采集", "AI预测性维护", "能耗优化", "私有化部署", "EMS", "边缘计算" ]
+    },
+    "product": {
+        "core_name": "边云一体平台 + AI 应用套件",
+        "one_liner": "从设备接入到数据中台与AI智能决策，一站式统一接入、存储、分析与可视化，支持私有化与边云协同",
+        "highlights": [
+            "多协议即插即用（Modbus/IEC104/DLT645/MQTT）",
+            "边缘计算 + 云端调度，低时延高可靠",
+            "开放 API 与 Webhook，易集成现有系统",
+            "可观测性：日志/指标/告警/审计",
+            "RBAC 与全链路加密，企业级安全",
+            "低代码/插件化，快速定制交付"
+        ],
+        "stats": [
+            {
+                "label": "已接入设备",
+                "value": "10,000+"
+            },
+            {
+                "label": "典型项目规模",
+                "value": "≥ 35 MWh"
+            },
+            {
+                "label": "平均交付周期",
+                "value": "≤ 2 周"
+            }
+        ]
+    },
+    "ai": {
+        "capabilities": [
+            "预测性维护（时序异常检测、退化趋势预警）",
+            "能耗优化与调度（峰谷套利、需量管理、光储充协调）",
+            "智能助手/自动化（LLM+工作流，运维工单生成）",
+            "质量/安全监测（规则+模型的混合告警）"
+        ],
+        "model_ops": [
+            "数据标注与特征工程流程",
+            "在线/离线推理与灰度发布",
+            "可解释与审计留痕"
+        ]
+    },
+    "scenes": [
+        {
+            "title": "工厂设备联网与预测性维护",
+            "desc": "设备健康评分、计划性停机与备件优化"
+        },
+        {
+            "title": "工商业储能智能运维",
+            "desc": "SOC/SOH 监测、异常告警、收益与能耗优化"
+        },
+        {
+            "title": "智慧园区能效管理",
+            "desc": "多表计汇聚、能耗可视化、节能策略"
+        },
+        {
+            "title": "光储充一体智能调度",
+            "desc": "PV 波动抑制、充电桩负荷协调、策略回测"
+        }
+    ],
+    "protocol_ecosystem": {
+        "southbound": [ "Modbus RTU/TCP", "IEC104", "DLT645-2007", "MQTT", "私有协议（可适配）" ],
+        "northbound": [ "HTTP/REST", "Webhook", "OPC UA", "Kafka/MQ", "CSV/DB" ],
+        "deployment": [ "私有化部署", "边云协同（Edge ↔ Cloud）", "多租户SaaS（可选）" ]
+    },
+    "proof": {
+        "partners": [ "客户A", "客户B", "客户C" ],
+        "certs": [ "软件著作权 ", "专利/等保/ISO" ],
+        "milestones": [ "累计并网 100 MWh+", "覆盖行业 4+" ]
+    },
+    "contact": {
+        "phone": "XXXXXXXXXXX",
+        "email": "XXXXXXXXXXXX",
+        "address": "XXXXXXXXXXXX",
+        "primary_cta": "预约演示"
+    },
+    "compliance": {
+        "company_fullname": "XXXXXXXXXXXX",
+        "year": "2025",
+        "icp_or_note": ""
+    }
+}

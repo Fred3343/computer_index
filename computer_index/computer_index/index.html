@@ -1,0 +1,341 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title id="meta-title">加载中...</title>
+    <meta id="meta-desc" name="description" content="">
+    <meta id="meta-keywords" name="keywords" content="">
+    <meta name="theme-color" content="#0EA5E9" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='64' height='64'%3E%3Crect width='100%25' height='100%25' rx='12' fill='%230EA5E9'/%3E%3Ctext x='50%25' y='54%25' font-family='sans-serif' font-size='34' text-anchor='middle' fill='white'%3EA%3C/text%3E%3C/svg%3E" />
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        // 固定配色（如需改色可在此修改）
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: { primary: "#0EA5E9", accent: "#22C55E" }
+                }
+            }
+        }
+    </script>
+    <style>
+        html {
+            scroll-behavior: smooth
+        }
+    </style>
+</head>
+<body class="antialiased text-gray-900 bg-white">
+    <!-- 顶部导航 -->
+    <header class="sticky top-0 z-40 w-full backdrop-blur bg-white/80 border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-14 flex items-center justify-between">
+            <a href="#top" class="font-extrabold text-lg tracking-tight" aria-label="返回顶部">
+                <span id="logo-text" class="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">GZWY</span>
+            </a>
+            <nav class="hidden sm:flex gap-6 text-sm text-gray-700">
+                <a href="#features" class="hover:text-gray-900">能力</a>
+                <a href="#ai" class="hover:text-gray-900">AI</a>
+                <a href="#scenes" class="hover:text-gray-900">场景</a>
+                <a href="#ecosystem" class="hover:text-gray-900">生态</a>
+                <a href="#contact" class="hover:text-gray-900">联系</a>
+            </nav>
+            <a id="nav-cta" href="#contact" class="hidden sm:inline-flex items-center gap-2 rounded-2xl px-4 py-2 text-sm font-medium bg-primary text-white shadow hover:shadow-md transition">
+                预约演示
+                <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" class="-mr-0.5">
+                    <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+            </a>
+        </div>
+    </header>
+
+    <!-- 首屏 -->
+    <section id="top" class="relative overflow-hidden">
+        <div class="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-sky-50 via-white to-white"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
+            <div class="grid lg:grid-cols-2 gap-10 items-center">
+                <div>
+                    <div id="hero-en" class="inline-flex items-center gap-2 rounded-full border px-3 py-1 text-xs sm:text-sm border-primary/20 bg-primary/10 text-primary">Loading...</div>
+                    <h1 class="mt-4 text-3xl sm:text-5xl font-extrabold leading-tight">
+                        <span id="brand-cn" class="block">Loading...</span>
+                        <span id="brand-slogan" class="block bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent">Loading...</span>
+                    </h1>
+                    <p id="product-one" class="mt-4 text-base sm:text-lg text-gray-600 max-w-2xl">Loading...</p>
+                    <div class="mt-6 flex flex-wrap gap-3">
+                        <a id="hero-cta" href="#contact" class="inline-flex items-center gap-2 rounded-2xl px-5 py-2.5 text-sm font-medium bg-primary text-white shadow hover:shadow-md transition">
+                            获取方案
+                            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7" /></svg>
+                        </a>
+                        <a href="#features" class="inline-flex items-center rounded-2xl px-5 py-2.5 text-sm font-medium border bg-white hover:bg-gray-50">了解能力</a>
+                    </div>
+                    <div id="stats" class="mt-8 grid grid-cols-3 gap-4 max-w-lg"></div>
+                </div>
+                <!-- 右侧亮点 -->
+                <div class="lg:justify-self-end">
+                    <div class="relative">
+                        <div class="absolute -inset-4 rounded-3xl bg-gradient-to-r from-primary/20 to-accent/20 blur-2xl opacity-40"></div>
+                        <div class="relative rounded-3xl border bg-white p-6 shadow-sm">
+                            <div id="highlights" class="grid grid-cols-2 gap-4"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 平台能力 -->
+    <section id="features" class="py-16 sm:py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-2xl sm:text-3xl font-bold tracking-tight">平台能力</h2>
+            <p id="core-name" class="mt-2 text-sm sm:text-base text-gray-600">Loading...</p>
+            <div id="features-grid" class="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-4"></div>
+        </div>
+    </section>
+
+    <!-- AI 能力 -->
+    <section id="ai" class="py-16 sm:py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-2xl sm:text-3xl font-bold tracking-tight">AI 能力</h2>
+            <p class="mt-2 text-sm sm:text-base text-gray-600">从数据到决策的全链路智能</p>
+            <div class="mt-8 grid lg:grid-cols-2 gap-6">
+                <div class="rounded-2xl border bg-white p-6">
+                    <h3 class="font-semibold">应用场景</h3>
+                    <ul id="ai-apps" class="mt-3 space-y-2 list-disc list-inside text-sm text-gray-700"></ul>
+                </div>
+                <div class="rounded-2xl border bg-white p-6">
+                    <h3 class="font-semibold">模型与发布</h3>
+                    <ul id="ai-modelops" class="mt-3 space-y-2 list-disc list-inside text-sm text-gray-700"></ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 行业/场景 -->
+    <section id="scenes" class="py-16 sm:py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-2xl sm:text-3xl font-bold tracking-tight">行业/场景</h2>
+            <p class="mt-2 text-sm sm:text-base text-gray-600">覆盖能源、制造与园区等典型场景</p>
+            <div id="scenes-grid" class="mt-8 grid sm:grid-cols-2 lg:grid-cols-4 gap-4"></div>
+        </div>
+    </section>
+
+    <!-- 协议与生态 -->
+    <section id="ecosystem" class="py-16 sm:py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-2xl sm:text-3xl font-bold tracking-tight">协议与生态</h2>
+            <p class="mt-2 text-sm sm:text-base text-gray-600">多协议接入，开放对接，灵活部署</p>
+            <div class="mt-8 grid lg:grid-cols-3 gap-6">
+                <div class="rounded-2xl border bg-white p-6">
+                    <h3 class="font-semibold">南向协议</h3>
+                    <div id="southbound" class="mt-3 flex flex-wrap gap-2"></div>
+                </div>
+                <div class="rounded-2xl border bg-white p-6">
+                    <h3 class="font-semibold">北向集成</h3>
+                    <div id="northbound" class="mt-3 flex flex-wrap gap-2"></div>
+                </div>
+                <div class="rounded-2xl border bg-white p-6">
+                    <h3 class="font-semibold">部署形态</h3>
+                    <div id="deployment" class="mt-3 flex flex-wrap gap-2"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 成功背书 -->
+    <section id="proof" class="py-16 sm:py-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-2xl sm:text-3xl font-bold tracking-tight">成功背书</h2>
+            <p class="mt-2 text-sm sm:text-base text-gray-600">客户、资质与里程碑</p>
+            <div class="mt-8 grid lg:grid-cols-3 gap-6">
+                <div class="rounded-2xl border bg-white p-6">
+                    <h3 class="font-semibold">客户与伙伴</h3>
+                    <div id="partners" class="mt-4 grid grid-cols-3 gap-3"></div>
+                </div>
+                <div class="rounded-2xl border bg-white p-6">
+                    <h3 class="font-semibold">资质证书</h3>
+                    <ul id="certs" class="mt-3 space-y-2 list-disc list-inside text-sm text-gray-700"></ul>
+                </div>
+                <div class="rounded-2xl border bg-white p-6">
+                    <h3 class="font-semibold">里程碑</h3>
+                    <ul id="milestones" class="mt-3 space-y-2 list-disc list-inside text-sm text-gray-700"></ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系我们 -->
+    <section id="contact" class="py-16 sm:py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-2xl sm:text-3xl font-bold tracking-tight">联系我们</h2>
+            <p class="mt-2 text-sm sm:text-base text-gray-600">留下联系方式，我们将尽快与您对接需求</p>
+            <div class="mt-8 grid lg:grid-cols-2 gap-6">
+                <div class="rounded-2xl border bg-white p-6">
+                    <div class="space-y-3 text-sm">
+                        <div class="flex items-center gap-3">
+                            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.09 4.18 2 2 0 0 1 4.06 2h3a2 2 0 0 1 2 1.72c.12.81.3 1.6.57 2.35a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.73-1.09a2 2 0 0 1 2.11-.45c.75.27 1.54.45 2.35.57A2 2 0 0 1 22 16.92z" /></svg>
+                            <a id="phone" class="hover:underline" href="#">-</a>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6c0-1.1.9-2 2-2z" /><path d="m22 6-10 7L2 6" /></svg>
+                            <a id="email" class="hover:underline" href="#">-</a>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 10c0 7-9 12-9 12S3 17 3 10a9 9 0 1 1 18 0z" /><circle cx="12" cy="10" r="3" /></svg>
+                            <span id="address">-</span>
+                        </div>
+                    </div>
+                    <a id="contact-cta" href="#" class="mt-5 inline-flex items-center gap-2 rounded-2xl px-5 py-2.5 text-sm font-medium bg-primary text-white shadow hover:shadow-md transition">
+                        立即预约演示
+                        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7" /></svg>
+                    </a>
+                </div>
+                <!--<div class="rounded-2xl border bg-white p-6">
+                    <h3 class="font-semibold">快速说明（当前为 mailto 起步）</h3>
+                    <ul class="mt-3 text-sm text-gray-700 list-disc list-inside">
+                        <li>无需后端，点击按钮即可通过默认邮箱软件发送</li>
+                        <li>后续可替换为后端表单或工单系统</li>
+                        <li>支持在私有化环境中落地，含权限与审计</li>
+                    </ul>
+                </div>-->
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="mt-10 border-t">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 text-sm text-gray-600 flex flex-col sm:flex-row items-center justify-between gap-3">
+            <div>© <span id="year">2025</span> <span id="company">某某软件与物联网人工智能科技有限公司</span> • 保留所有权利</div>
+            <div class="flex items-center gap-4">
+                <a id="icp" href="#" class="hover:underline hidden"></a>
+                <a href="#" class="hover:underline">隐私</a>
+                <a href="#" class="hover:underline">条款</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 返回顶部 -->
+    <a href="#top" aria-label="返回顶部"
+       class="fixed bottom-5 right-5 inline-flex items-center justify-center w-10 h-10 rounded-full shadow bg-primary text-white hover:shadow-md">↑</a>
+
+    <!-- 渲染脚本：读取 config.json 并填充页面 -->
+    <script>
+        const $ = (id) => document.getElementById(id);
+        const pill = (txt) => `<span class="inline-flex items-center rounded-full border px-3 py-1 text-xs leading-6 border-gray-200 bg-white">${txt}</span>`;
+
+        async function loadConfig() {
+            try {
+                const res = await fetch("config.json", { cache: "no-store" });
+                if (!res.ok) throw new Error(res.statusText);
+                return await res.json();
+            } catch (e) {
+                console.warn("读取 config.json 失败，将使用内置默认配置：", e);
+                return {
+                    brand: { cn_name: "某某软件·物联网·AI 科技", en_name: "Acme Software · IoT · AI", slogan: "让设备更聪明，让业务更轻松", logo_text: "GZWY" },
+                    seo: { title: "某某软件·物联网·AI｜边云一体与智能运维平台", description: "默认描述", keywords: ["软件", "物联网", "AI"] },
+                    product: { core_name: "边云一体平台 + AI 应用套件", one_liner: "默认一句话", highlights: ["多协议接入", "边缘计算", "开放API", "可观测性", "安全合规", "插件化"], stats: [{ "label": "已接入设备", "value": "10,000+" }, { "label": "典型项目规模", "value": "≥ 35 MWh" }, { "label": "平均交付周期", "value": "≤ 2 周" }] },
+                    ai: { capabilities: ["预测性维护", "能耗优化", "智能助手", "质量安全监测"], model_ops: ["数据标注", "灰度发布", "可解释"] },
+                    scenes: [{ title: "场景A", desc: "描述A" }, { title: "场景B", desc: "描述B" }],
+                    protocol_ecosystem: { southbound: ["Modbus", "IEC104"], northbound: ["HTTP/REST", "Webhook"], deployment: ["私有化部署"] },
+                    proof: { partners: ["客户A", "客户B", "客户C"], certs: ["软著 × N"], milestones: ["里程碑示例"] },
+                    contact: { phone: "400-000-0000", email: "bd@your-domain.com", address: "某某地址", primary_cta: "预约演示" },
+                    compliance: { company_fullname: "某某公司", year: "2025", icp_or_note: "" }
+                };
+            }
+        }
+
+        function render(cfg) {
+            // SEO
+            document.title = cfg.seo?.title || document.title;
+            $("meta-desc").setAttribute("content", cfg.seo?.description || "");
+            $("meta-keywords").setAttribute("content", (cfg.seo?.keywords || []).join(","));
+
+            // 头部与首屏
+            $("logo-text").textContent = cfg.brand?.logo_text || "LOGO";
+            $("hero-en").textContent = cfg.brand?.en_name || "";
+            $("brand-cn").textContent = cfg.brand?.cn_name || "";
+            $("brand-slogan").textContent = cfg.brand?.slogan || "";
+            $("product-one").textContent = cfg.product?.one_liner || "";
+
+            const cta = cfg.contact?.primary_cta || "预约演示";
+            $("nav-cta").firstChild.nodeValue = cta + " ";
+            $("hero-cta").firstChild.nodeValue = "获取方案 ";
+
+            // 统计
+            $("stats").innerHTML = (cfg.product?.stats || []).map(s => `
+            <div class="rounded-2xl border bg-white p-4 text-center">
+              <div class="text-xl sm:text-2xl font-bold">${s.value || ""}</div>
+              <div class="mt-1 text-xs text-gray-500">${s.label || ""}</div>
+            </div>`).join("");
+
+            // 亮点（右侧 6 个）
+            $("highlights").innerHTML = (cfg.product?.highlights || []).slice(0, 6).map((h, i) => `
+            <div class="flex items-start gap-3 rounded-2xl border p-4">
+              <span class="mt-0.5 w-4 h-4 rounded-full ${i % 2 ? 'bg-accent/80' : 'bg-primary/80'}"></span>
+              <span class="text-sm text-gray-700">${h}</span>
+            </div>`).join("");
+
+            // 平台能力
+            $("core-name").textContent = cfg.product?.core_name || "";
+            $("features-grid").innerHTML = (cfg.product?.highlights || []).map(h => `
+            <div class="rounded-2xl border bg-white p-5 hover:shadow-sm transition">
+              <h3 class="font-semibold">${(h.split("（")[0] || h)}</h3>
+              <p class="mt-2 text-sm text-gray-600">${h}</p>
+            </div>`).join("");
+
+            // AI
+            $("ai-apps").innerHTML = (cfg.ai?.capabilities || []).map(x => `<li>${x}</li>`).join("");
+            $("ai-modelops").innerHTML = (cfg.ai?.model_ops || []).map(x => `<li>${x}</li>`).join("");
+
+            // 场景
+            $("scenes-grid").innerHTML = (cfg.scenes || []).map(s => `
+            <div class="rounded-2xl border bg-white p-5">
+              <h3 class="font-semibold">${s.title || ""}</h3>
+              <p class="mt-2 text-sm text-gray-600">${s.desc || ""}</p>
+            </div>`).join("");
+
+            // 生态
+            $("southbound").innerHTML = (cfg.protocol_ecosystem?.southbound || []).map(p => pill(p)).join("");
+            $("northbound").innerHTML = (cfg.protocol_ecosystem?.northbound || []).map(p => pill(p)).join("");
+            $("deployment").innerHTML = (cfg.protocol_ecosystem?.deployment || []).map(p => pill(p)).join("");
+
+            // 背书
+            $("partners").innerHTML = (cfg.proof?.partners || []).map(p => `
+            <div class="aspect-[3/1] rounded-xl border bg-gray-50 flex items-center justify-center text-xs text-gray-500">${p}</div>`).join("");
+            $("certs").innerHTML = (cfg.proof?.certs || []).map(c => `<li>${c}</li>`).join("");
+            $("milestones").innerHTML = (cfg.proof?.milestones || []).map(m => `<li>${m}</li>`).join("");
+
+            // 联系
+            const phone = cfg.contact?.phone || "";
+            const email = cfg.contact?.email || "";
+            const addr = cfg.contact?.address || "";
+            $("phone").textContent = phone; $("phone").href = phone ? `tel:${phone}` : "#";
+            $("email").textContent = email; $("email").href = email ? `mailto:${email}?subject=${encodeURIComponent(cta)}&body=${encodeURIComponent("我想了解产品与方案")}` : "#";
+            $("address").textContent = addr;
+            $("contact-cta").textContent = "立即" + cta;
+            $("contact-cta").href = email ? `mailto:${email}?subject=${encodeURIComponent(cta)}&body=${encodeURIComponent("我想预约产品演示：")}` : "#";
+
+            // 页脚/合规
+            $("year").textContent = cfg.compliance?.year || new Date().getFullYear();
+            $("company").textContent = cfg.compliance?.company_fullname || "";
+            const icp = cfg.compliance?.icp_or_note || "";
+            if (icp) { $("icp").textContent = icp; $("icp").classList.remove("hidden"); }
+
+            // 结构化数据（JSON-LD）
+            const org = {
+                "@context": "https://schema.org",
+                "@type": "Organization",
+                name: cfg.compliance?.company_fullname || cfg.brand?.cn_name || "",
+                url: location.origin,
+                logo: location.origin + "/logo.png",
+                contactPoint: [{ "@type": "ContactPoint", contactType: "sales", email: email }]
+            };
+            const s = document.createElement("script");
+            s.type = "application/ld+json";
+            s.text = JSON.stringify(org);
+            document.head.appendChild(s);
+        }
+
+        (async () => { render(await loadConfig()); })();
+    </script>
+</body>
+</html>
