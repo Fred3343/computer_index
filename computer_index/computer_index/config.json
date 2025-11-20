@@ -86,6 +86,14 @@
     "compliance": {
         "company_fullname": "XXXXXXXXXXXX",
         "year": "2025",
-        "icp_or_note": ""
+        "icp_or_note": "",
+
+
+        "icp_number": "沪ICP备12345678号",
+        "icp_link": "https://beian.miit.gov.cn",
+
+        "police_number": "沪公网安备 31011502012345号",
+        "police_link": "https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011502012345",
+        "police_icon": "favicon.ico" 
     }
 }
