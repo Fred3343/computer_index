@@ -317,10 +317,26 @@
             const icpLink = cfg.compliance?.icp_link || "https://beian.miit.gov.cn";
             const policeNum = cfg.compliance?.police_number?.trim();
             const policeLink = cfg.compliance?.police_link || "https://www.beian.gov.cn/portal/registerSystemInfo";
+            const policeIcon = (cfg.compliance?.police_icon || "").trim(); 
 
             const parts = [];
-            if (icpNum) parts.push(`<a href="${icpLink}" target="_blank" rel="noopener noreferrer" class="hover:underline text-gray-600">${icpNum}</a>`);
-            if (policeNum) parts.push(`<a href="${policeLink}" target="_blank" rel="noopener noreferrer" class="hover:underline text-gray-600">${policeNum}</a>`);
+
+
+            if (icpNum) {
+                parts.push(
+                    `<a href="${icpLink}" target="_blank" rel="noopener noreferrer" class="hover:underline text-gray-600">${icpNum}</a>`
+                );
+            }
+
+            if (policeNum) {
+                const iconHtml = policeIcon
+                    ? `<img src="${policeIcon}" alt="" class="inline-block w-4 h-4 mr-1 align-[-2px]" />`
+                    : "";
+                parts.push(
+                    `<a href="${policeLink}" target="_blank" rel="noopener noreferrer" class="hover:underline text-gray-600">${iconHtml}${policeNum}</a>`
+                );
+            }
+
 
             if (parts.length) {
                 $("beian").innerHTML = parts.join('<span class="mx-2 text-gray-300">|</span>');

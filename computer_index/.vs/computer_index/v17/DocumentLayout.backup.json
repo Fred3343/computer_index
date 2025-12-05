@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "E:\\GitHub\\computer_index\\computer_index\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B9914F9D-39BA-41B5-BAC9-A91DC57DB260}|computer_index\\computer_index.pyproj|E:\\GitHub\\computer_index\\computer_index\\computer_index\\config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B9914F9D-39BA-41B5-BAC9-A91DC57DB260}|computer_index\\computer_index.pyproj|solutionrelative:computer_index\\config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9914F9D-39BA-41B5-BAC9-A91DC57DB260}|computer_index\\computer_index.pyproj|E:\\GitHub\\computer_index\\computer_index\\computer_index\\computer_index.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{B9914F9D-39BA-41B5-BAC9-A91DC57DB260}|computer_index\\computer_index.pyproj|solutionrelative:computer_index\\computer_index.py||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B9914F9D-39BA-41B5-BAC9-A91DC57DB260}|computer_index\\computer_index.pyproj|E:\\GitHub\\computer_index\\computer_index\\computer_index\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B9914F9D-39BA-41B5-BAC9-A91DC57DB260}|computer_index\\computer_index.pyproj|solutionrelative:computer_index\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B9914F9D-39BA-41B5-BAC9-A91DC57DB260}|computer_index\\computer_index.pyproj|E:\\GitHub\\computer_index\\computer_index\\computer_index\\config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B9914F9D-39BA-41B5-BAC9-A91DC57DB260}|computer_index\\computer_index.pyproj|solutionrelative:computer_index\\config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B9914F9D-39BA-41B5-BAC9-A91DC57DB260}|computer_index\\computer_index.pyproj|E:\\GitHub\\computer_index\\computer_index\\computer_index\\config.json||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B9914F9D-39BA-41B5-BAC9-A91DC57DB260}|computer_index\\computer_index.pyproj|solutionrelative:computer_index\\config.json||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9914F9D-39BA-41B5-BAC9-A91DC57DB260}|computer_index\\computer_index.pyproj|E:\\GitHub\\computer_index\\computer_index\\computer_index\\computer_index.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B9914F9D-39BA-41B5-BAC9-A91DC57DB260}|computer_index\\computer_index.pyproj|solutionrelative:computer_index\\computer_index.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "config.json",
               "DocumentMoniker": "E:\\GitHub\\computer_index\\computer_index\\computer_index\\config.json",
               "RelativeDocumentMoniker": "computer_index\\config.json",
@@ -43,32 +43,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "config.json",
               "DocumentMoniker": "E:\\GitHub\\computer_index\\computer_index\\computer_index\\config.json",
               "RelativeDocumentMoniker": "computer_index\\config.json",
               "ToolTip": "E:\\GitHub\\computer_index\\computer_index\\computer_index\\config.json",
               "RelativeToolTip": "computer_index\\config.json",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAuwEcAAABRAAAAAAAAAA==",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAkwGMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-11-10T01:58:41.389Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "index.html",
               "DocumentMoniker": "E:\\GitHub\\computer_index\\computer_index\\computer_index\\index.html",
               "RelativeDocumentMoniker": "computer_index\\index.html",
               "ToolTip": "E:\\GitHub\\computer_index\\computer_index\\computer_index\\index.html",
               "RelativeToolTip": "computer_index\\index.html",
-              "ViewState": "AgIAALEAAAAAAAAAAAAuwNIAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAD0BAAAAAAAAAAAIwF0BAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-11-10T01:52:42.244Z"
+              "WhenOpened": "2025-11-10T01:52:42.244Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "computer_index.py",
               "DocumentMoniker": "E:\\GitHub\\computer_index\\computer_index\\computer_index\\computer_index.py",
               "RelativeDocumentMoniker": "computer_index\\computer_index.py",
@@ -76,7 +77,8 @@
               "RelativeToolTip": "computer_index\\computer_index.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHfSURBVDhPpZCxaxNhGMZ/9zVJaUuDUlq1FBWLZBFTCXo4BFyU1qGKi4OkIHhkzF/g0KF00M2lR9YUdDDQQVAcJILoQUd1UNRmkhoRm8RL777v7nOoCZd4AcEH3uF5nvd73vd74X\u002BgtTai3LIsHeWDEEJct217a1DvwbIs7bpubFUqFW3b9naxWLwWfSOipAvHcfqqi0KhkMtms3cty1rsaomeG4FpmoMSANVqlXQ6nQMWgacMC4hOBchduEj\u002ByjKjScGh8SS1Wq3nxQZEN3j1eY/Vrfe8rTeQvsf89ARLS1cz5XIZ/uUGXxptQiVRUhJIybudXaZn52a7vbEBpmkyNb/A69YM9W8tDEJOTI2hpI\u002BSkvOZH2f13sNAB\u002B07sV9wHIdH9Unquz9RvoeUPtL3UFISKkky\u002BAT7HwTi6FpsgGma3N9\u002Bg5I\u002BKaFZyU8wOpJChwHnjiuE9wKCXyC/zsQGOI7DeELjtiUPbgky6Wd/HA3KBelC4AIpNfQGl88cQ0mfI5PugRhKkM2DUk0INYwtPI/dAGAlf4rbl06T6DyBVgeCABJzYPhwcm0V8ICNvwJKpVIf37h3IxSyKVAuBMDIYQAMw1jvaxwGrYNl3Xq5o79vat3Y3Nedj4\u002B11je7/m\u002BXOuyzFtDhUgAAAABJRU5ErkJggg==",
-              "WhenOpened": "2025-11-10T01:52:13.464Z"
+              "WhenOpened": "2025-11-10T01:52:13.464Z",
+              "EditorCaption": ""
             }
           ]
         }
